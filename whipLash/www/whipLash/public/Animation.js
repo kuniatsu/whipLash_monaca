@@ -17,7 +17,7 @@ class Animation{
     getElementStyle(elementId){
         console.log("getElementStyle()");
         let ele = document.getElementById(elementId);
-        console.dir(ele);
+        // console.dir(ele);
         return ele.style;
     }
 
@@ -108,7 +108,7 @@ class Newton extends Animation {
         }
     }
     end(){
-        console.dir(this.img);
+        // console.dir(this.img);
         if(this.img){
             this.img = null;
             super.getAnimationBox().innerHTML = "";

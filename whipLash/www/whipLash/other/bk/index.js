@@ -303,7 +303,7 @@ var count = (startTime,times,aniObj)=>{
 var oneStop = ()=>{
     console.log("oneStopCheck");
     var checkLoop = document.getElementById('checkLoop');
-    console.dir(checkLoop);    
+    // console.dir(checkLoop);    
     return checkLoop.checked;
 }
 
@@ -742,7 +742,7 @@ var changeTitle = (text)=>{
 var maxTime = ()=>{
     var timeLimit = document.getElementById('timeLimit');
     times = new Time(hour.value , min.value , sec.value);
-    console.dir(times);
+    // console.dir(times);
     timeLimit.innerText = printTimeObj(times);
 }
 var changeCrossToOk = (text)=>{

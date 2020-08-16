@@ -1,6 +1,6 @@
 (()=>{
     bt.addEventListener('click',()=>{
-        console.dir(taskList);
+        // console.dir(taskList);
     });
     bt2.addEventListener('click',()=>{nextTask()});
     bt3.addEventListener('click',()=>{deleteEndTask()});

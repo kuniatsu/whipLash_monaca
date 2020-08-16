@@ -7,8 +7,8 @@
         "cordova-plugin-splashscreen": "5.0.2",
         "cordova-plugin-whitelist": "1.3.3",
         "monaca-plugin-monaca-core": "3.3.0",
-        "cordova-plugin-tts": "file:res/custom_plugins/cordova-plugin-tts",
-        "cordova-plugin-insomnia": "file:res/custom_plugins/cordova-plugin-insomnia"
+        "cordova-plugin-insomnia": "file:res/custom_plugins/cordova-plugin-insomnia",
+        "cordova-plugin-tts": "file:res/custom_plugins/cordova-plugin-tts"
     },
     "scripts": {
         "monaca:preview": "npm run dev",
@@ -20,8 +20,8 @@
             "cordova-plugin-splashscreen": {},
             "cordova-custom-config": {},
             "monaca-plugin-monaca-core": {},
-            "cordova-plugin-tts": {},
-            "cordova-plugin-insomnia": {}
+            "cordova-plugin-insomnia": {},
+            "cordova-plugin-tts": {}
         }
     },
     "devDependencies": {

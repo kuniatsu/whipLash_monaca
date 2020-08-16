@@ -279,7 +279,7 @@ let previousTask=()=>{
     // console.log('previousTask()');
     let list = document.getElementById('taskList');
     let task = list.getElementsByTagName('li');
-    console.dir(task);
+    // console.dir(task);
     if(task.length > 0){
         initTime();
         reverseLoopList(list);
